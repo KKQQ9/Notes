@@ -27,8 +27,8 @@
 
     |-- src目录
     |-- app // 工程源码目录
-    |-- assets // 资源目录
-    |-- environments // 环境配置目录
+    |-- assets // 资源目录：声音、图片、视频
+    |-- environments // 环境配置目录：本机环境、开发环境、生产环境
     |-- favicon.ico // header里的icon
     |-- index.html // 单页应用的宿主HTML
     |-- main.ts // 入口ts文件
@@ -45,8 +45,10 @@
             |-- app.component.ts // app的组件
             |-- app.module.ts // app的模块
         |-- environments目录
-            |-- environments.prod.ts // 生产环境
-            |-- environments.ts // 开发环境
+            |-- environments.prod.ts // 生产环境：公司配置环境、第三方云服务：阿里云、京东云、犀牛云（存放客户数据）
+                |-- baseUrl:"https://www.baidu.com/apis"
+            |-- environments.ts // 开发环境：本机环境
+                |-- baseUrl:"http://localhost:8080/apis"
 ```
 
 ## 具体内容
