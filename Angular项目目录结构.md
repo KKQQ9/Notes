@@ -53,7 +53,7 @@
 
 ### .editorconfig
 ****
-![AG项目目录结构2.png](AG项目目录结构2.png)
+![AG项目目录结构2.png](images/AG项目目录结构2.png)
 
 
 ### angular.json
